@@ -9,7 +9,7 @@ Also don't forget to turn the volume on ;)
 
 ### How to install the game
 To install the application, download all files included in the "Executable" folder, and double-click on Sudoku.exe<br/><br/>
-IMPORTANT: all .dll dependencies and plugin folders (imageformats/, mediaservice/, platforms/ and playlistformats/) must be downloaded. The .qss files and the audio/, fonts/ and images/ folders are optinal but should also be downloaded for an optimal user experience.<br/>
+IMPORTANT: all .dll dependencies, plugin folders (imageformats/, mediaservice/, platforms/ and playlistformats/) and the sudoku_input.txt file are mandatory and should stay in the same folder as Sudoku.exe. The .qss files and the audio/, fonts/ and images/ folders are optional but should also be downloaded for an optimal user experience.<br/>
 The game should look like this (tested on Windows 7 & Windows 10):
 <br/><br/>
 ![Main window - blue theme](https://user-images.githubusercontent.com/25090342/30785561-c9d811cc-a168-11e7-975a-f9d89324bdbd.PNG "Main window - blue theme")
@@ -29,3 +29,10 @@ Technologies: C++ / Qt
 ...
 
 (more details coming soon)
+
+### Next features (coming soon)
+- Implementation of the "Clue" button, which helps the used by automatically filling a blank or incorrect cell on the grid<br/>
+- Add save/open fonctionality to save the current game and finishing it later
+- Add a Sudoku editor to create your own Sudoku input grid and add it to the list of existing configurations (the CSP solver verifies if the created configuration has a solution) 
+- Improve the efficiency of the CSP algorithm (currently it is a simple backtracking search with some basic heuristics)
+- Adding more themes
