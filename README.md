@@ -19,7 +19,7 @@ The game should look like this (tested on Windows 7 & Windows 10):
 The CSP solver starts in the background as soon as the user loads a new Sudoku grid. Once the calculation terminates, and as soon as the user fills the whole grid, the "Submit" button becomes available. Just click on it and see if you've fully completed the grid! (the user input is compared to the computed solution). If not, the mistaken cells are shown to the user. On the other hand, the user can use the "Solution" button at anytime to display the solution, or use the "Reset" button to reset the current grid and restart from the beggining with the same input configuation.
 
 ### How to customize the game
-The game design can be fully customized through the use of the .qss files that are included within the project.
+The game design can be fully customized through the use of .qss files that are included within the project.
 If you have some basic knowlege of CSS or QSS (Qt style sheets), you can edit the files "styleSheet_blue.qss" and "styleSheet_red.qss" and make your own theme (background image, button styles, colours, ...).<br/>
 If you are a C++/Qt programmer you can also easily modify the MainWindow::changeTheme() method and add additional buttons into MainWindow.ui if you want to have more than 2 default themes. The addition of custom fonts and sounds must also be done programmatically in MainWindow.cpp.
 
