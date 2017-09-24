@@ -84,6 +84,10 @@ MainWindow::MainWindow(QWidget *parent) :
     //Initialise time for random number generation
     qsrand(time(0));
 
+    //Load fonts
+    QFontDatabase::addApplicationFont("./fonts/calibri.ttf");
+    QFontDatabase::addApplicationFont("./fonts/chinyen.ttf");
+
     //Set default theme for the app
     QFile styleSheet("styleSheet_blue.qss");
     styleSheet.open(QFile::ReadOnly);

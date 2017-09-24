@@ -1,20 +1,3 @@
-/*******************************/
-/*            FONTS            */
-/*******************************/
-
-@font-face 
-{
-    font-family: 'calibri';
-    src: url('fonts/calibri.ttf') format('truetype');
-}
-
-@font-face 
-{
-    font-family: 'chinyen';
-    src: url('fonts/chinyen.ttf') format('truetype');
-}
-
-
 
 /*******************************/
 /*    MAIN WINDOW AND CELLS    */

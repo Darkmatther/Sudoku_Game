@@ -14,6 +14,7 @@
 #include <QMessageBox>
 #include <QThread>
 #include <QGraphicsDropShadowEffect>
+#include <QFontDatabase>
 
 
 class GridDisplay;
