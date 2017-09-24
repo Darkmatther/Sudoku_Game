@@ -35,4 +35,5 @@ Technologies: C++ / Qt
 - Add save/open fonctionality to save the current game and finishing it later
 - Add a Sudoku editor to create your own Sudoku input grid and add it to the list of existing configurations (the CSP solver verifies if the created configuration has a solution) 
 - Improve the efficiency of the CSP algorithm (currently it is a simple backtracking search with some basic heuristics)
+- Add animation to the red theme
 - Adding more themes
