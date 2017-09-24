@@ -3,12 +3,13 @@
 ## Author : Matthieu Kieffer
 
 ### Description
-This is my first game application! 
-This Sudoku game comes with a fully-customizable interactive graphical user interface, and self-solving artificial intelligence via a CSP algorithm (Constraint Satisfaction Problem). Also don't forget to turn the volume on ;)
+This is my first game application!<br/> 
+This Sudoku game comes with a fully-customizable interactive graphical user interface, and self-solving artificial intelligence via a CSP algorithm (Constraint Satisfaction Problem).<br/>
+Also don't forget to turn the volume on ;)
 
 ### How to install the game
-To install the application, download all files included in the "Executable" folder, and double-click on Sudoku.exe
-IMPORTANT: all dependencies (audio, fonts, images) should be downloaded for an optimal user experience.
+To install the application, download all files included in the "Executable" folder, and double-click on Sudoku.exe<br/>
+IMPORTANT: all dependencies (audio, fonts, images) should be downloaded for an optimal user experience.<br/>
 The game should look like this:
 <br/><br/>
 ![Main window - blue theme](https://user-images.githubusercontent.com/25090342/30785561-c9d811cc-a168-11e7-975a-f9d89324bdbd.PNG "Main window - blue theme")
