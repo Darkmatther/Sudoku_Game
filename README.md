@@ -36,4 +36,4 @@ Technologies: C++ / Qt
 - Add a Sudoku editor to create your own Sudoku input grid and add it to the list of existing input configurations (the CSP solver checks if the created configuration has a solution) 
 - Improve the efficiency of the CSP algorithm (currently it is a simple backtracking search with basic heuristics)
 - Add animation to the red theme
-- Adding more themes
+- Add more themes
