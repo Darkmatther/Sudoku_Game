@@ -31,7 +31,7 @@ Technologies: C++ / Qt
 (more details coming soon)
 
 ### Next features (coming soon)
-- Implementation of the "Clue" button, which helps the used by automatically filling a blank or incorrect cell on the grid<br/>
+- Implementation of the "Clue" button, which helps the user by automatically filling a blank or incorrect cell on the grid<br/>
 - Add save/open fonctionality to save the current game and finishing it later
 - Add a Sudoku editor to create your own Sudoku input grid and add it to the list of existing configurations (the CSP solver verifies if the created configuration has a solution) 
 - Improve the efficiency of the CSP algorithm (currently it is a simple backtracking search with some basic heuristics)
