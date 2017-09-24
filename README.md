@@ -5,7 +5,8 @@
 ### Description
 Sudoku application with animated graphical user interface, and self-solving functionality via a CSP algorithm (Constraint Satisfaction Problem).
 Technologies: C++ / Qt<br/><br/>
-![Main window of the game](https://user-images.githubusercontent.com/25090342/29821873-b9be613c-8cc9-11e7-91f8-e8f8e50e5acd.png "Main window of the application")
+![Main window of the game](https://user-images.githubusercontent.com/25090342/30785561-c9d811cc-a168-11e7-975a-f9d89324bdbd.PNG "Main window of the game - blue theme")
+
 
 ### Motivations
 
