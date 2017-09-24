@@ -16,7 +16,7 @@ The game should look like this (tested on Windows 7 & Windows 10):
 ![Main window - red theme](https://user-images.githubusercontent.com/25090342/30785562-c9d82ce8-a168-11e7-9cab-b1e1443f13ab.PNG "Main window - red theme")
 
 ### How the artificial intelligence solver works
-The CSP solver starts in the background as soon as the user loads a new Sudoku grid. Once the calculation terminates, the user can use the "Reset" button to reset the current grid, or use the "Solution" button to display the computed solution. If the user fills the whole grid, the "Submit" button becomes available. Just click on it and see if you've fully completed the game! If not, the mistaken cells are shown to the user.
+The CSP solver starts in the background as soon as the user loads a new Sudoku grid. Once the calculation terminates, and as soon as the user fills the whole grid, the "Submit" button becomes available. Just click on it and see if you've fully completed the game! (the computed solution is simply compared to the user input). If not, the mistaken cells are shown to the user. On the other hand, the user can use the "Solution" button at anytime to display the solution, or use the "Reset" button to clean the current grid and restart from the beggining with the same input configuation.
 
 ### How to customize the game
 The game design can be fully customized through the use of the .qss files that are included within the project.
