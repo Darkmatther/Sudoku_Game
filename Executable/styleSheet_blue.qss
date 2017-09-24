@@ -1,0 +1,283 @@
+/*******************************/
+/*            FONTS            */
+/*******************************/
+
+@font-face 
+{
+    font-family: 'calibri';
+    src: url('fonts/calibri.ttf') format('truetype');
+}
+
+@font-face 
+{
+    font-family: 'chinyen';
+    src: url('fonts/chinyen.ttf') format('truetype');
+}
+
+
+
+/*******************************/
+/*    MAIN WINDOW AND CELLS    */
+/*******************************/
+
+/*Background image for the main window*/
+MainWindow
+{
+    background: #FFFFFF url(./images/background_blue.png) no-repeat center center;
+}
+
+/*Individual cells of the Sudoku grid*/
+#GridDisplay QLineEdit
+{
+    border: 1px solid #474747;
+    border-radius: 0px;
+    padding: 0 0px;
+    selection-background-color: #498877;
+    background: white;
+    font-family: 'calibri';
+    font: 28px;
+    color: #2e7462;
+}
+
+/*Style when hovering the cells*/
+#GridDisplay QLineEdit:hover:!read-only
+{
+    background: #A0CBC0;
+    border: 3px solid #66AC9A;
+}
+
+/*Style when focusing on a cells*/
+#GridDisplay QLineEdit:focus:!read-only
+{
+    background: #d3a846;
+    /*border: 3px solid #66AC9A;*/
+}
+
+/*Style of the frame around the Sudoku grid*/
+QFrame#frame_gridDisplay
+{
+    border: 4px solid black;
+}
+
+/*Style of the message boxes*/
+.QMessageBox
+{
+    background-color: rgba(145, 184, 170, 0.8);
+    /*color: red;*/
+    font: 14px;
+    font-family: "Comic Sans MS", serif;
+}
+QMessageBox QPushButton
+{
+    background-color: #c3dcd2;
+    /*color: red;*/
+    font: bold 14px;
+    width: 80px;
+    font-family: "Comic Sans MS", serif;
+}
+
+QMenuBar,QMenu,QAction
+{
+    background-color: #66AC9A;
+    font-family: "Comic Sans MS", serif;
+    font: bold 14px;
+    color: #1d463b;
+}
+QMenu::item:selected
+{
+    color: white;
+}
+
+
+
+/*******************************/
+/*           BUTTONS           */
+/*******************************/
+
+/*General style for all buttons*/
+QPushButton
+{
+    height: 40px;
+    border-style: outset;
+    border-width: 0px;
+    border-radius: 10px;
+    font: normal 15px;
+    color: #223D36;
+    font-family: 'chinyen', "Comic Sans MS", serif;
+    border-color: black;
+}
+QPushButton:hover
+{
+    border-style: inset;
+    background-color: #d3a846;
+}
+QPushButton:disabled
+{
+    color: rgba(0, 0, 0, 0.2);
+}
+
+/*Style for the button 'New game'*/
+QPushButton#button_newGame
+{
+    height: 100px;
+    width: 250px;
+    background-color: rgba(145, 184, 170, 0.8);
+    font: bold 28px;
+    border-radius: 20px;
+    border: 5px solid rgba(145, 184, 170, 1);
+    /*border-width: 0px;*/
+}
+QPushButton#button_newGame:hover
+{
+    background-color: #d3a846;
+}
+
+/*Style for the button 'Generate new grid'*/
+QPushButton#button_newGrid
+{
+    height: 60px;
+    background-color: rgba(154, 236, 237, 0.7);
+    font: bold 16px;
+    border-width: 0px;
+}
+QPushButton#button_newGrid:hover
+{
+    background-color: #d3a846;
+}
+
+/*Style for the button 'Reset'*/
+QPushButton#button_reset
+{
+    background-color: rgba(145, 184, 170, 0.8);
+}
+QPushButton#button_reset:hover
+{
+    background-color: #d3a846;
+}
+
+/*Style for the button 'Solution'*/
+QPushButton#button_solution
+{
+    background-color: rgba(145, 184, 170, 0.8);
+}
+QPushButton#button_solution:hover
+{
+    background-color: #d3a846;
+}
+
+/*Style for the button 'Clue'*/
+QPushButton#button_clue
+{
+    background-color: rgba(145, 184, 170, 0.8);
+}
+QPushButton#button_clue:hover
+{
+    background-color: #d3a846;
+}
+
+/*Style for the button 'Submit'*/
+QPushButton#button_submit
+{
+    height: 60px;
+    background-color: rgba(145, 184, 170, 0.8);
+    font: normal 16px;
+    border-width: 0px;
+}
+QPushButton#button_submit:hover
+{
+    background-color: #6AE99F;
+}
+
+/*Style for buttons 'Change theme'*/
+QPushButton#button_blueTheme:hover,#button_redTheme:hover
+{
+    border: 3px solid #d3a846;
+}
+
+
+
+/*******************************/
+/*        AUDIO SETTINGS       */
+/*******************************/
+
+/*Style for the button 'Mute audio'*/
+
+QPushButton#button_muteSoundtrack
+{
+    /*image: url(./images/audio_on.svg);*/
+    icon-size: 24px 24px;
+    border: none;
+}
+
+QPushButton#button_muteSoundtrack:hover
+{
+    /*image: url(./images/audio_off.svg);*/
+    background-color: #d3a846;
+    /*border: none;*/
+}
+
+QSlider::groove:vertical 
+{
+    border: 1px solid #bbb;
+    background: white;
+    width: 2px;
+    border-radius: 2px;
+}
+
+QSlider::add-page:vertical 
+{
+    background: #7dada1;
+    border-radius: 2px;
+}
+
+QSlider::sub-page:vertical 
+{
+    background: white;
+    border-radius: 2px;
+}
+
+QSlider::handle:vertical 
+{
+    background: #66AC9A;
+    height: 16px;
+    margin-left: -7px;
+    margin-right: -7px;
+    border-radius: 8px;
+}
+
+QSlider::handle:!enabled
+{
+    background: white;
+}
+
+QSlider::add-page:vertical:!enabled
+{
+    background: white;
+}
+
+
+
+/*******************************/
+/*         OTHER STUFF         */
+/*******************************/
+
+QLabel#label_gameOver
+{
+    font-family: 'chinyen', "Comic Sans MS", serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+QLabel#label_nbErrors
+{
+    font-size: 20px;
+    color: black;
+    font-family: 'calibri', "Comic Sans MS", serif;
+}
+
+SnowFlake
+{
+    image: url(./images/snowflake.svg);
+    /*border: 1px solid black;*/
+}
+
