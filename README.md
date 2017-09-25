@@ -10,7 +10,7 @@ Also don't forget to turn the volume on ;)
 ### How to install the game
 To install the application, download all files included in the "Executable" folder, and double-click on Sudoku.exe<br/><br/>
 IMPORTANT: all .dll dependencies, plugin folders (imageformats/, mediaservice/, platforms/ and playlistformats/) and the sudoku_input.txt file are mandatory and should stay in the same folder as Sudoku.exe. The .qss files and the audio/, fonts/ and images/ folders are optional but should also be downloaded for an optimal user experience.<br/>
-The game should look like this (tested on Windows 7 & Windows 10):
+The game should look like this (tested on Windows 7, 8 & 10):
 <br/><br/>
 ![Main window - blue theme](https://user-images.githubusercontent.com/25090342/30785561-c9d811cc-a168-11e7-975a-f9d89324bdbd.PNG "Main window - blue theme")
 ![Main window - red theme](https://user-images.githubusercontent.com/25090342/30785562-c9d82ce8-a168-11e7-9cab-b1e1443f13ab.PNG "Main window - red theme")
